@@ -10,13 +10,14 @@ def parse_args():
                                     )
     parser.add_argument('filename1', metavar='ferst_file')
     parser.add_argument('filename2', metavar='second_file')
+    parser.add_argument('-f', '--format', help='set format of output')
     args = parser.parse_args()
 
     return args
   
 def main():
     args = parse_args()
-    filename1, filename2 = args.filename1, args.filename2
+    filename1, filename2 = args.filename1, args.filename2, args.format
     print(filename1, filename2)
 
 
