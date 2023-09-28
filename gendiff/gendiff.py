@@ -22,4 +22,4 @@ def generate_diff(data1, data2):
     lines.append('}')
     return '\n'.join(lines)
 
-print(generate_diff('/home/roodmann/Dev/file_1.json', '/home/roodmann/Dev/file_2.json'))
+#print(generate_diff('/home/roodmann/Dev/file_1.json', '/home/roodmann/Dev/file_2.json'))
